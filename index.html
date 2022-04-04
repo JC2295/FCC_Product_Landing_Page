@@ -11,28 +11,80 @@
     <header id="header" class="border">
         <nav id="nav-bar">
             <ul>
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">Sign Up</a></li>
-                <li><a href="#" class="nav-link">Contact Us</a></li>
-                <li><a href="#" class="nav-link">About Us</a></li>
-                <li><a href="#" class="nav-link">Product Details</a></li>
+                <li><a href="#about-us" class="nav-link">About Us</a></li>
+                <li><a href="#product-details" class="nav-link">Product Details</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#order" class="nav-link">Order</a></li>
             </ul>
         </nav>
         <div id="brand">
-            <img src="#" alt="Fire Fly Company Logo">
+            <img id="header-img" src="#" alt="Fire Fly Company Logo">
             <h1><a href="#" id="title">Fire Fly</a></h1>
-        </div>
-        
+        </div>     
         <div id="intro"></div>
     </header>
+
     <main class="border">
-        <form action="" id="form">
-            <label for="email">Email:</label>
-            <input type="text" placeholder="Email Address" required id="email">
-            <input type="submit" id="submit">
-        </form>
-        <iframe src="" frameborder="0" id="video"></iframe>
+
+        <section id="about-us">
+            <div>
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
+                    quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
+                    in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
+                    consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
+                    fugiat excepturi deleniti illo!</p>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GhKWU3nMeao" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen id="video"></iframe>
+        </section>
+
+        <section id="product-details">
+            <h2>Product Details</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
+                quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
+                in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
+                consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
+                fugiat excepturi deleniti illo!</p>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
+                quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
+                in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
+                consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
+                fugiat excepturi deleniti illo!</p>
+            <div>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="order">
+            <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                <label for="email">Email:
+                    <input type="email" placeholder="Email Address" required id="email" name="email"
+                    value="email">
+                </label>
+                <input type="submit" id="submit">
+            </form>
+        </section>
+        
     </main>
+
     <footer class="border">
         
     </footer>
