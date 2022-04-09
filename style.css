@@ -20,6 +20,7 @@
 
 #nav-bar{
     order: 2;
+    margin-right: 100px;
 }
 li, a{
     display: inline-block;
@@ -27,11 +28,12 @@ li, a{
 }
 
 a{
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
 }
 
 .border{
     border: solid grey 2px;
 }
+
 
