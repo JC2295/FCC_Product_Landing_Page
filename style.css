@@ -4,36 +4,8 @@
     box-sizing: border-box;
 }
 
-#header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#brand{
-    display: flex;
-    flex-direction: row;
-    order: 1;
-    margin-left: 0;
-}
-
-#nav-bar{
-    order: 2;
-    margin-right: 100px;
-}
-li, a{
-    display: inline-block;
-    text-decoration: none;
-}
-
-a{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-}
-
-.border{
-    border: solid grey 2px;
+@media(max-width:400px){
+    
 }
 
 
