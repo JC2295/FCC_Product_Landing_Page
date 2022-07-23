@@ -9,69 +9,79 @@
 </head>
 <body>
     <header id="header" class="border">
+        <div id="brand">
+            <img id="header-img" src="logo.jpg" alt="Fire Fly Company Logo">
+            <h1>Firefly</h1>
+        </div>
         <nav id="nav-bar">
-            <header><h1>hjvvfytcy</h1></header>
             <ul>
                 <li><a href="#about-us" class="nav-link">About Us</a></li>
                 <li><a href="#product-details" class="nav-link">Product Details</a></li>
                 <li><a href="#pricing" class="nav-link">Pricing</a></li>
-                <li><a href="#order" class="nav-link">Order</a></li>
+                <li><a href="#order" class="nav-link">Contact</a></li>
             </ul>
-        </nav>
-        <div id="brand">
-            <img id="header-img" src="#" alt="Fire Fly Company Logo">
-            <h1><a href="#" id="title">Fire Fly</a></h1>
-        </div>     
+        </nav>   
     </header>
     <main class="border">
         <section id="about-us">
-            <div>
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
-                    quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
-                    in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
+            <div id="about-us-container">
+                <header id="about-us-header">
+                    <h2>About Us</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla
+                    quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi
+                    in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam
                     consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
                     fugiat excepturi deleniti illo!</p>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GhKWU3nMeao" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-            picture-in-picture" allowfullscreen id="video"></iframe>
+            <div id="iframe-div">
+                <iframe src="https://www.youtube.com/embed/GhKWU3nMeao"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen id="video"></iframe>
+            </div>
         </section>
-
         <section id="product-details">
-            <h2>Product Details</h2>
+            <header>
+                <h2>Product Details</h2>
+            </header>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
                 quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
                 in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
                 consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
                 fugiat excepturi deleniti illo!</p>
         </section>
-
         <section id="pricing">
-            <h2>Pricing</h2>
+            <header>
+                <h2>Pricing</h2>
+            </header>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt et, nulla 
                 quasi doloribus cupiditate vero voluptatum eaque itaque animi harum magnam eligendi 
                 in recusandae officiis. Autem maiores nam ipsa reprehenderit deserunt. Totam 
                 consectetur optio ipsa nesciunt quam? Recusandae amet odio ducimus enim non sit earum
                 fugiat excepturi deleniti illo!</p>
-            <div>
-                <div>
-                    <h3></h3>
-                    <p></p>
+            <div id="Packages">
+                <div class="package-div" id="Bronze_Package">
+                    <h3>Bronze Package</h3>
+                    <img class="package-img" src="Bronze.jpg"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae?</p>
                 </div>
-                <div>
-                    <h3></h3>
-                    <p></p>
+                <div class="package-div" id="Silver_Package">
+                    <h3>Silver Package</h3>
+                    <img class="package-img" src="Silver.jpg"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, vel.</p>
                 </div>
-                <div>
-                    <h3></h3>
-                    <p></p>
+                <div class="package-div" id="Gold_Package">
+                    <h3>Gold Package</h3>
+                    <img class="package-img" src="Gold.jpg"/>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, modi!</p>
                 </div>
             </div>
         </section>
-
-        <section id="order">
+        <section id="Contact">
+            <header>
+                <h2>Contact</h2>
+            </header>
             <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
                 <label for="email">Email:
                     <input type="email" placeholder="Email Address" required id="email" name="email"
@@ -79,12 +89,11 @@
                 </label>
                 <input type="submit" id="submit">
             </form>
-        </section>
-        
+        </section>      
     </main>
-
-    <footer class="border">
-        
+    <footer id="footer" class="border">
+        <a href='https://www.freepik.com/vectors/logo-templates'>Logo templates vector created by freepik - www.freepik.com</a>
+        <a href="https://www.vecteezy.com/free-vector/red">Red Vectors by Vecteezy</a>
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
