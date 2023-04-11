@@ -10,7 +10,7 @@ li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 body{
@@ -39,12 +39,7 @@ body{
     border-bottom: white solid 1px;
 }
 
-:target:before {
-    content: "";
-    display: block;
-    height: 20vh;
-    margin: 20vh 0 0;
-}
+:target { scroll-margin-top: 23vh; }
 
 #main{
     margin: max(170px, 22vh) auto auto auto;
@@ -148,7 +143,7 @@ p{
   
 }
 
-@media(width <= 900px){
+@media(width <= 1000px){
     #header{
         flex-direction: column;
     }
@@ -176,17 +171,19 @@ p{
     nav{
         margin: 0.5rem;
     }
-
-    #header{        
-        height: 22vh;
-    }
    
 }
 
-@media(width <= 610px){
+@media(width <= 680px){
     nav ul{
       flex-direction: column;
       text-align: center
+    }
+    #header{        
+          height: 30vh;
+      }
+    #main{
+      margin: 30vh auto auto auto;
     }
 }
 
