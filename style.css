@@ -107,9 +107,10 @@ iframe{
 .package-div{
     text-align: center;
     margin: 2rem;
-    border: #01021E solid 2px;
+    border: azure solid 2px;
     border-radius: 2rem;
     padding: 1rem;
+    background-color: #01021E;
 }
 
 section{
@@ -126,17 +127,6 @@ p{
     justify-content: space-around;
 }
 
-#Gold_Package{
-    background-color: grey;
-}
-
-#Silver_Package{
-    background-color: grey;
-}
-
-#Bronze_Package{
-    background-color: grey;
-}
 
 .package-img{
     width:100px;
