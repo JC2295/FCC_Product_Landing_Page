@@ -39,6 +39,13 @@ body{
     border-bottom: white solid 1px;
 }
 
+:target:before {
+    content: "";
+    display: block;
+    height: 20vh;
+    margin: 20vh 0 0;
+}
+
 #main{
     margin: max(170px, 22vh) auto auto auto;
     font-size: max(1rem, 1.5vw);
@@ -103,6 +110,7 @@ h1{
 iframe{
     width: 100%;
     aspect-ratio: 16/9;
+    border: azure solid 2px;
 }
 
 .package-div{
@@ -120,7 +128,7 @@ iframe{
 }
 
 section{
-    margin:1rem;
+    margin: 4rem;
 }
 
 p{
@@ -144,32 +152,24 @@ p{
     #header{
         flex-direction: column;
     }
+    #about-us{
+          flex-direction: column;
+      }    
+    #about-us-container{
+          width: 100%;
+          margin-right: 0rem;
+          margin-bottom: 1rem;
+      }
+    #iframe-div{
+          width:100%;
+      }
+    #Packages{
+          flex-direction: column;
+    } 
 }
 
-@media(width <= 770px)
-{
-  #about-us{
-        flex-direction: column;
-    }
-  
-  #about-us-container{
-        width: 100%;
-        margin-right: 0rem;
-        margin-bottom: 1rem;
-    }
-  #iframe-div{
-        width:100%;
-    }
-  #Packages{
-        flex-direction: column;
-  }
-  #main{
-    
-}
-}
-
-@media(width <= 580px){
-    nav li{
+@media(width <= 580px){  
+  nav li{
         display: block;
     }
 
