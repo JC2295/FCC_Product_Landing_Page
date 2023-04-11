@@ -40,8 +40,9 @@ body{
 }
 
 #main{
-    margin-top: max(170px, 22vh);
+    margin: max(170px, 22vh) auto auto auto;
     font-size: max(1rem, 1.5vw);
+    width: 80%;
 }
 
 #footer{
@@ -91,12 +92,12 @@ h1{
 
 #about-us-container
 {
-    width: 40%;
+    width: 50%;
     margin-right: 1rem;
 }
 
 #iframe-div{
-    width:60%;
+    width:50%;
 }
 
 iframe{
@@ -114,7 +115,7 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: max(350px, 40vh);
     min-width: 200px;
 }
 
@@ -159,6 +160,12 @@ p{
   #iframe-div{
         width:100%;
     }
+  #Packages{
+        flex-direction: column;
+  }
+  #main{
+    
+}
 }
 
 @media(width <= 580px){
@@ -173,9 +180,7 @@ p{
     #header{        
         height: 22vh;
     }
-    #Packages{
-        flex-direction: column;
-    }
+   
 }
 
 @media(width <= 610px){
