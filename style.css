@@ -47,6 +47,10 @@ body{
     width: 80%;
 }
 
+#form{
+  background-color: #01021E;
+}
+
 #footer{
     background-color: #01021E;
     padding: 1rem;
