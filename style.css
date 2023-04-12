@@ -33,7 +33,7 @@ body{
     top:0;
     width: 100%;
     min-width: 375px;
-    height: 20vh;
+    height: 19vh;
     min-height: 150px;
     margin: auto;
     border-bottom: white solid 1px;
@@ -49,6 +49,21 @@ body{
 
 #form{
   background-color: #01021E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border: solid azure 2px;
+}
+
+label{
+  margin: 1rem;
+  display: inline block;
+}
+
+input{
+  font-size: 1rem;
 }
 
 #footer{
@@ -165,6 +180,7 @@ p{
     #Packages{
           flex-direction: column;
     } 
+    :target { scroll-margin-top: 20vh; }
 }
 
 @media(width <= 580px){  
@@ -184,10 +200,11 @@ p{
       text-align: center
     }
     #header{        
-          height: 30vh;
+          height: 32vh;
       }
     #main{
-      margin: 30vh auto auto auto;
+      margin: 32vh auto auto auto;
     }
+    :target { scroll-margin-top: 32vh; }
 }
 
