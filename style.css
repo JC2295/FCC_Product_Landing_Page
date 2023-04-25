@@ -60,22 +60,29 @@ body{
 
 #form{
   background-color: #01021E;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
   border: solid azure 2px;
   border-radius: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 label{
+  display: block;
+  width: 80%;
   margin: 1rem;
-  vertical-align: middle;
 }
 
-input{
-  font-size: 1rem;
+input, textarea{
+  font-size: max(1rem, 1.5vw);
+  display: block;
+  font-family: Helvetica; 
+  width: 100%;
 }
+
+
 
 #footer{
     background-color: #01021E;
@@ -88,7 +95,7 @@ input{
 }
 
 #contact{
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
