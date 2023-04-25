@@ -99,7 +99,7 @@ input, textarea{
   margin: auto;
 }
 
-button{
+#submit{
   border: solid white 2px;
   background-color: #01021E;
   color: azure; 
@@ -107,9 +107,10 @@ button{
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
+  width: 80%;
 }
 
-button:hover{
+#submit:hover{
   border: solid yellow 2px;
   color: yellow; 
   background-color: black;
