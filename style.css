@@ -245,8 +245,12 @@ section{
       flex-direction: column;
       text-align: center
     }
+    li > a {
+     font-size: 1.2rem;
+      }
     #header{        
           height: 32vh;
+      
       }
     #main{
       margin: 32vh auto auto auto;
