@@ -49,7 +49,7 @@ body{
     border-bottom: white solid 1px;
 }
 
-:target { scroll-margin-top: 23vh; }
+:target { scroll-margin-top: 28vh; }
 
 #main{
     margin: max(170px, 22vh) auto auto auto;
@@ -226,7 +226,7 @@ section{
     #Packages{
           flex-direction: column;
     } 
-    :target { scroll-margin-top: 20vh; }
+    :target { scroll-margin-top: 27vh; }
 }
 
 @media(width <= 580px){  
