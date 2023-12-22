@@ -253,8 +253,8 @@ section{
       
       }
     #main{
-      margin: 32vh auto auto auto;
+      margin: 33vh auto auto auto;
     }
-    :target { scroll-margin-top: 33vh; }
+    :target { scroll-margin-top: 34vh; }
 }
 
